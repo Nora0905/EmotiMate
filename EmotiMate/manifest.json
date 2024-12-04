@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "EmotiMate",
+    "version": "1.0",
+    "description": "An emotional and task-driven Chrome Extension with customizable support assistants.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

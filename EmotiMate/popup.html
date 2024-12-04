@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>EmotiMate</h1>
+    <p id="greeting"></p>
+    <p>Your emotional support, tailored for you.</p>
+    <input type="text" id="task-input" placeholder="Whatever it is, I’ll be here for you.">
+    <button id="generate-btn">Analyze</button>
+    <div id="output"></div>
+    <div id="assistant-settings">
+      <h3>Customize Your Assistant</h3>
+      <select id="persona-select">
+        <option value="warm">Warm and Caring</option>
+        <option value="playful">Playful but Kind</option>
+        <option value="strong">Strong and Dominant</option>
+        <option value="mentor">Older Mentor</option>
+        <option value="sibling">Younger Sibling</option>
+      </select>
+    </div>
+    <div id="user-settings">
+      <h3>User Settings</h3>
+      <label for="user-name">Your Name:</label>
+      <input type="text" id="user-name" placeholder="Enter your name here">
+      <label for="gender-select">Your Gender:</label>
+      <select id="gender-select">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+      <button id="save-settings-btn">Save Settings</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
